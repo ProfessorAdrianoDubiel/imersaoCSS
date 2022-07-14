@@ -1,0 +1,38 @@
+body {
+  background-image: url('https://img.freepik.com/fotos-gratis/parede-de-estudio-gradiente-de-ouro-amarelo-abstrato-de-luxo-bem-como-uso-como-plano-de-fundo-layout-banner-e-apresentacao-do-produto_1258-63544.jpg?w=2000');
+  background-size: auto 100vh; 
+  font-family: Arial;
+  height: 100vh;
+}
+
+.menu {
+  background-color: #FF8C00;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+ list-style: none; 
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-subtitle, 
+.site-title {
+  color: black;
+  text-align: center;
+}
+
+.site-subtitle {
+ font-style: italic;
+}
