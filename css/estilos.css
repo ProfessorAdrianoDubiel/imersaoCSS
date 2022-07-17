@@ -29,8 +29,6 @@ body {
 @media (min-width: 1200px) {
   body {
     font-size: 20px;
-    background-image: none;
-    background-color: whitesmoke;
   }
 }
 
@@ -42,7 +40,7 @@ header {
 }
 
 h1 {
-  margin:  0px;
+  margin:  -30px;
   padding: 0px;
 }
 .menu {
@@ -82,15 +80,33 @@ a:hover {
   text-align: center;
 }
 
-.site-title: {
+.site-title {
   font-size: 4em;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .site-subtitle {
- font-style: italic;
+ font-style: bolde;
+ font-family: 'Dancing Script', cursive;
+ /* font-family: 'Press Start 2P', cursive; */
+ line-height: 1.5em;
+ font-size: 2em;
 }
 
+figure {
+  display: flex;
+  justify-content: center;
+}
 .img-portfolio {
   height: 180px;
   width: 180px;
+  margin: 10px;
+  border: 10px;
+  padding: 20px;
 }
+
+.portfolio {
+  display: flex;
+  color: darkgreen;
+  justify-content: center;  
+  font-size: 25px;}
