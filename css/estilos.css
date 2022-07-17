@@ -1,12 +1,61 @@
+/* soft reset do css */
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-image: url('https://img.freepik.com/fotos-gratis/parede-de-estudio-gradiente-de-ouro-amarelo-abstrato-de-luxo-bem-como-uso-como-plano-de-fundo-layout-banner-e-apresentacao-do-produto_1258-63544.jpg?w=2000');
   background-size: auto 100vh; 
   font-family: Arial;
   height: 100vh;
+  font-size: 12px;
+}
+/*se a tela tiver pelo menos 400px vai carregar estes estilos */
+@media (min-width: 400px) {
+  body {
+    font-size: 14px;
+  }
 }
 
+/* breakpoint*/
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* breakpoint*/
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+    background-image: none;
+    background-color: whitesmoke;
+  }
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin:  0px;
+  padding: 0px;
+}
 .menu {
-  background-color: #FF8C00;
+  background-color: darkgreen;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 20px;
+  color: aliceblue;
 }
 
 .menu ul {
@@ -27,12 +76,21 @@ a:hover {
   text-decoration: underline;
 }
 
-.site-subtitle, 
+.site-subtitle,
 .site-title {
-  color: black;
+  color: darkgreen;
   text-align: center;
+}
+
+.site-title: {
+  font-size: 4em;
 }
 
 .site-subtitle {
  font-style: italic;
+}
+
+.img-portfolio {
+  height: 180px;
+  width: 180px;
 }
