@@ -19,3 +19,7 @@ cobrem uma boa parte delas. Veja o link: https://www.alura.com.br/artigos/css-gu
 
 O guia de Flexbox acima foi traduzido para o português a partir do site CSS Tricks, um dos maiores repositórios de 
 conteúdo sobre o assunto! (em inglês): https://css-tricks.com/.
+
+Uma outra ferramenta do CSS para posicionar elementos bastante utilizada é o Grid. Temos mais um joguinho (infelizmente 
+é o último) para praticar o CSS Grid enquanto cuida de uma hortinha e rega as plantas, bem relaxante!
+https://cssgridgarden.com/ Você pode usar as ferramentas do Grid para montar um leiaute de página web.
