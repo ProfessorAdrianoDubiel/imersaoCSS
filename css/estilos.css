@@ -65,6 +65,18 @@ h1 {
   display: block;
   padding: 10px 20px;
   color: aliceblue;
+  transition: background-color 1s, color 1s;
+
+}
+
+.menu a:hover {
+  background-color: aliceblue;
+  color: darkgreen;
+}
+
+.menu a:active {
+  background-color: red;
+  color: greenyellow;
 }
 
 a {
@@ -122,10 +134,35 @@ a:hover {
 .portfolio figcaption {
   color: darkgreen;
 }
+
+.img-portfolio {
+  height: 180px;
+  width: 240px;
+  /*object-fit: cover;
+  object-position: left bottom;*/
+  border-radius: 50%;
+  transition: transform 500 ms ;
+}
+
+.img-portfolio:hover {
+  transform: scale(1.2) rotate3d(0, 0, 1, 45deg);
+}
+
+.contato .icon {
+  text-align: center;
+
+}
 .contato a {
   color: darkgreen;
-  font-size: 3em;
+  font-size: 4em;
   margin-right: 40px;
+  transition: text-shadow 1s;
+}
+
+.contato a:hover {
+  text-decoration: none;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1.0);
+
 }
 
 .contato h3 {
@@ -163,14 +200,6 @@ a:hover {
     justify-content: center;
    /* height: calc(100vh - 2em - 48px - 2em);*/
   }
-}
-
-.img-portfolio {
-  height: 180px;
-  width: 240px;
-  /*object-fit: cover;
-  object-position: left bottom;*/
-  border-radius: 50%;
 }
 
 @media (min-width: 1200px) {
