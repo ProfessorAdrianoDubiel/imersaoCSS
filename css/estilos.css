@@ -50,6 +50,7 @@ h1 {
   position: fixed;
   width: 100vw;
   top: 0;
+  z-index: 1;
 }
 
 .menu ul {
@@ -75,7 +76,7 @@ h1 {
 }
 
 .menu a:active {
-  background-color: red;
+  background-color: black;
   color: greenyellow;
 }
 
@@ -87,6 +88,23 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.titulo {
+  transform: scale(0.2)  translateY(50vh);
+  opacity: 0;
+
+  animation: 1s linear 2s animacaoTitulo forwards;
+}
+
+@keyframes animacaoTitulo {
+
+  100% {
+    transform: scale(1)  translateY(0);
+    opacity: 1;
+
+  }
+}
+
 .sub-sub-title,
 .site-subtitle,
 .site-title {
