@@ -23,3 +23,9 @@ conteúdo sobre o assunto! (em inglês): https://css-tricks.com/.
 Uma outra ferramenta do CSS para posicionar elementos bastante utilizada é o Grid. Temos mais um joguinho (infelizmente 
 é o último) para praticar o CSS Grid enquanto cuida de uma hortinha e rega as plantas, bem relaxante!
 https://cssgridgarden.com/ Você pode usar as ferramentas do Grid para montar um leiaute de página web.
+
+## 27 de julho 2022
+Pessoal, essa ferramenta de clipping é muito interessante. Vocês podem utilizá-las como moldura em imagens nos sites 
+que construirem. Segue o link:
+https://bennettfeely.com/clippy/
+Bons estudos!
